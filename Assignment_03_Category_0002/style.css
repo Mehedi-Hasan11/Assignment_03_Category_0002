@@ -360,6 +360,7 @@ header {
 }
 
 .content-1 {
+    width: 60%;
     display: flex;
     justify-content: space-between;
     background-color: rgba(17, 84, 20, 1);
@@ -397,6 +398,7 @@ header {
 
 .content-2 {
     display: flex;
+    width:40%;
     justify-content: space-between;
     background-color: rgba(16, 40, 97, 1);
     border-radius: 10px;
@@ -441,6 +443,7 @@ main {
 /* * Subscribe Section * */
 
 .subscribe-container {
+    width: 100%;
     
     position: absolute;
     top: 1700px;
@@ -698,11 +701,18 @@ footer {
     }
 
     .arrival-container-main {
+        width: 100%;
         margin: 0px 20px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
 
+    }
+    .content-1{
+        width: 90%;
+    }
+    .content-2{
+        width: 90%;
     }
 
     main {
