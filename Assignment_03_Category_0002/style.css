@@ -156,6 +156,7 @@ header {
 
 .part-2 img {
     max-width: 100%;
+    margin: auto;
 
 }
 
@@ -333,19 +334,12 @@ header {
     font-size: 10px;
 }
 
-
-
-
-
-
-
-
-
-
 /* * Arrival & Offers Section * */
+
 .arrival-container {
-    margin: 0px auto;
+    margin: auto;
     padding-bottom: 400px;
+    
 }
 
 .arrival-container h3 {
@@ -358,8 +352,10 @@ header {
 }
 
 .arrival-container-main {
-    margin: 0px 90px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 90px;
     gap: 20px;
 }
 
@@ -443,10 +439,15 @@ main {
 }
 
 /* * Subscribe Section * */
+
 .subscribe-container {
+    
     position: absolute;
+    justify-content: center;
+    align-items: center;
     top: 1600px;
     z-index: 1;
+
 }
 
 .subscribe {
