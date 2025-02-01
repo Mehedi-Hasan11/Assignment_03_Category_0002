@@ -443,10 +443,12 @@ main {
 .subscribe-container {
     
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    top: 1600px;
+    top: 1700px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
+    
+    
 
 }
 
@@ -455,6 +457,7 @@ main {
     margin: 80px 90px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-radius: 12px;
     padding: 50px;
 }
@@ -496,10 +499,8 @@ footer {
     position: relative;
 }
 
-
-
-
 /** Footer Section **/
+
 .footer-container {
     background-color: green;
 }
@@ -534,11 +535,8 @@ footer {
     font-size: 30px;
 }
 
-
-
-
-
 /** Responsive Styles **/
+
 @media screen and (max-width: 576px) {
 
     /** Navbar **/
@@ -597,6 +595,7 @@ footer {
     }
 
     /** Banner **/
+
     .banner-container {
         margin: 0px auto;
         flex-direction: column-reverse;
@@ -622,6 +621,7 @@ footer {
     }
 
     /** Services Section **/
+    
     .SC-container {
         margin: 0 10px;
     }
@@ -687,6 +687,7 @@ footer {
 
 
     /* * Arrival & Offers Section * */
+
     .arrival-container {
         margin: 0px auto;
     }
@@ -709,9 +710,12 @@ footer {
     }
 
     /* * Subscribe Section * */
+
     .subscribe-container{
         position: absolute;
-        top: 3000px;
+        top: 3000px; 
+        width: 100%;
+
     }
     .subscribe {
         margin: 20px 20px;
